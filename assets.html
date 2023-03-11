@@ -3,14 +3,56 @@
     <head>
         <style>
 
-            body {
-                line-height: 0;
-                background-color: #ececec;
+            .header {
+                padding-left: 40px;
                 margin: 0px;
-                padding-top: 100px;
-                padding-left: 50px;
+                z-index: 100;
+                color: #333333;
+                background-color: #dbdbdb;
+                position: fixed;
+                width: 1300px;
+                line-height: 75px;
+                font-family: けいふぉんと;
+                font-size: 30px;
+            }
+
+            .footer {
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-left: 40px;
+                margin: 0px;
+                margin-top: -20px;
+                color: #dbdbdb;
+                background-color: #333333;
+                width: 1300px;
+                line-height: 75px;
+                font-family: けいふぉんと;
+                font-size: 30px;
+            }
+
+            .c_mark {
+                font-family: Arial;
+                font-size: 20px;
+                color: #666666
             }
             
+            body {
+                width: 1300px;
+                line-height: 0;
+                margin: 0px;
+            }
+            
+            .main {
+                line-height: 0;
+                padding-top: 100px;
+                padding-left: 50px;
+                background-color: #ececec;
+            }
+
+            .sentence {
+                color: #444444;
+                line-height: normal;
+            }
             a {
                 text-decoration: none;
                 color: #fff;
@@ -55,6 +97,9 @@
             }
 
             .btn1 {
+                font-family: けいふぉんと;
+                background-color: #45a6e7;
+                color: #ffffff;
                 display: inline-block;
                 margin-left: 30px;
                 margin-right: 30px;
@@ -66,10 +111,7 @@
                 padding-right: 10px;
                 text-align: center;
                 border-radius: 10px;
-                font-family: けいふぉんと;
                 font-size: 30px;
-                color: #ffffff;
-                background-color: #45a6e7;
                 text-align: center;
                 transition: all 0.5s 0s ease;
             }
@@ -154,7 +196,15 @@
         </style>
         <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
     </head>
+
     <body>
+        <div class="header">ぐれべの素材集</div>
+        <div class="main">
+            <div class="sentence">
+            <h1>HTMLとCSSだけで作れるデザインをまとめました。</h1>
+            <h1>まだテストですが</h1>
+            <h1>ボタンをクリックするとサンプルコードが出てきます。</h1>
+        </div>
         <h1 class="name">ボタン1</h1>
         <h6></h6>
         <div class="btn1">
@@ -186,5 +236,12 @@
             サンプル
         </div>
         <h1 class="space"></h1>
+    </div>
+    <div class="footer">
+        ぐれべの素材集
+        <div class="c_mark">
+            ©FuguFX
+        </div>
+    </div>
     </body>
 </html>
