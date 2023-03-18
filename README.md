@@ -1,5 +1,5 @@
 # ぐれべがたまに使う素材をまとめました！
-### [Go](https://fugufx.github.io/assets/assets.html)
+### [Go](https://fugufx.github.io/assets/asset-home.html)
 
 ## フォント
 ### けいふぉんと！
